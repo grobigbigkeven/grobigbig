@@ -1,0 +1,30 @@
+/* Gro Big Big — Spacing, radius & layout
+   8px base rhythm. Sections breathe at 104px. Container caps at 1080px. */
+
+:root {
+  /* ---- Spacing scale ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 80px;
+  --space-10: 104px;
+
+  /* ---- Layout ---- */
+  --container-max: 1080px;
+  --container-pad: 48px;
+  --section-y: 104px;
+
+  /* ---- Radius ---- */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  /* ---- Borders ---- */
+  --border-hairline: 1px solid var(--gbb-border);
+}

@@ -1,0 +1,47 @@
+/* Gro Big Big — Colour
+   The house sits between its two operating brands. Pine green lands halfway
+   between AccPro's forest and grof's navy; amber lands halfway between
+   AccPro's gold and grof's orange. The result reads as the calm middle. */
+
+:root {
+  /* ---- House primary ---- */
+  --gbb-pine: #173E3D;        /* primary brand green */
+  --gbb-pine-deep: #102E2D;   /* darkest pine — footers, deep panels */
+  --gbb-pine-700: #1C4A48;    /* hover/raised pine */
+  --gbb-amber: #E0913A;       /* accent — eyebrows, the peak, highlights */
+  --gbb-amber-soft: #F0C088;  /* amber tint — backgrounds, fills */
+
+  /* ---- Ink & neutrals (warm-cool grey, very low chroma) ---- */
+  --gbb-ink: #1C2128;         /* primary text on light */
+  --gbb-muted: #5E6B6A;       /* secondary text */
+  --gbb-faint: #A7AAAD;       /* tertiary text, captions, hex labels */
+  --gbb-border: #D9DDD8;      /* hairlines, card borders */
+  --gbb-canvas: #F5F4F0;      /* warm paper background */
+  --gbb-surface: #FFFFFF;     /* cards, raised surfaces */
+
+  /* ---- Functional alpha (on light) ---- */
+  --gbb-amber-12: rgba(224,145,58,0.12);
+  --gbb-amber-28: rgba(224,145,58,0.28);
+  --gbb-pine-09: rgba(23,62,61,0.09);
+
+  /* ---- Operating-brand colours (for sub-brand contexts only) ---- */
+  --accpro-forest: #245B4A;
+  --accpro-gold: #C6A15B;
+  --grof-navy: #13213D;
+  --grof-orange: #FB800C;
+  --grof-orange-deep: #C2570A;
+  --grof-blue-soft: #BFE0F5;
+
+  /* ---- Semantic aliases ---- */
+  --color-bg: var(--gbb-canvas);
+  --color-surface: var(--gbb-surface);
+  --color-text: var(--gbb-ink);
+  --color-text-muted: var(--gbb-muted);
+  --color-text-faint: var(--gbb-faint);
+  --color-heading: var(--gbb-pine);
+  --color-accent: var(--gbb-amber);
+  --color-border: var(--gbb-border);
+  --color-brand: var(--gbb-pine);
+  --color-on-brand: #FFFFFF;
+  --color-selection: var(--gbb-amber-28);
+}

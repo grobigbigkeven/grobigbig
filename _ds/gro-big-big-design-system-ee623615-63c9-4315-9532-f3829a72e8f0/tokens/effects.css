@@ -1,0 +1,20 @@
+/* Gro Big Big — Effects: shadow, motion, focus
+   Shadows are tinted pine, never neutral grey — they keep the warmth.
+   Motion is calm: short, eased, no bounce. */
+
+:root {
+  /* ---- Shadows (pine-tinted) ---- */
+  --shadow-sm: 0 1px 3px rgba(23,62,61,0.08);
+  --shadow-md: 0 8px 28px rgba(23,62,61,0.16);
+  --shadow-lg: 0 18px 48px rgba(16,46,45,0.22);
+
+  /* ---- Motion ---- */
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1); /* @kind other */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  --dur-fast: 120ms; /* @kind other */
+  --dur-base: 200ms; /* @kind other */
+  --dur-slow: 320ms; /* @kind other */
+
+  /* ---- Focus ring ---- */
+  --focus-ring: 0 0 0 3px var(--gbb-amber-28);
+}
